@@ -1,0 +1,1080 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Peyda";
+}
+
+/* index page */
+.header {
+    width: 100%;
+    height: auto;
+    padding: 30px 50px;
+}
+
+i {
+    margin-right: 2px;
+}
+
+.menu ul>li {
+    display: inline-block;
+}
+
+.menu ul>li a {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.websiteIcon {
+    display: flex;
+    justify-content: center;
+}
+
+.userTool {
+    display: inline-block;
+}
+
+.userTool a {
+    font-size: 600;
+    font-size: 1.1rem;
+    margin-right: 10px;
+}
+
+.dividerContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 3px;
+    background-color: rgb(188, 188, 188);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-around;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.productsItem:first-child {
+    border: 3px solid black;
+    border-radius: 0px;
+}
+
+.productsItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background .4s ease;
+}
+
+.productsItem a {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.productsItem:hover {
+    background-color: rgb(188, 188, 188);
+}
+
+.main {
+    /* will be appled for all the main sections in ech page */
+    padding: 10px 40px 50px 40px;
+}
+
+.rowImg {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    grid-row-gap: 5px;
+}
+
+.rowImg .col img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 1rem;
+}
+
+.textContainer .boldText {
+    font-weight: 800;
+    margin: 0;
+}
+
+.textContainer .normalText {
+    font-weight: 600;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+}
+
+.sectionHeader h2 {
+    font-weight: 800;
+    font-size: larger;
+    margin: 0px 1rem;
+}
+
+.sectionFooter {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 30px #888888;
+}
+
+.item .actionContainer {
+    text-align: left;
+}
+
+.item .itemText {
+    text-align: center;
+}
+
+.item .itemText .itemTopic {
+    margin-top: 1rem;
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.item .itemText .itemPrice {
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+.item .itemText .showProductBtn {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 3px 15px;
+    font-weight: 600;
+}
+
+.imgContainer {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+
+.footer {
+    width: 100%;
+    padding: 45px 70px 100px 70px;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.column .title {
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+.column .publishedDay {
+    font-size: .8rem;
+    color: gray;
+    margin: 5px 0px;
+}
+
+.column .content {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+    line-height: 1.6rem;
+}
+
+.footer .logoContainer {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 45px 0px;
+    align-items: center;
+    background: gray;
+    height: 2px;
+}
+
+
+.footer .logoContainer span {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    width: 20%;
+}
+
+.footer .companyText {
+    margin-top: 5rem;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.shortcuts {
+    display: flex;
+    flex-direction: row;
+}
+
+.shortcuts .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.shortcuts .col .shortcutTopic {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 4rem 0px 1rem 0px;
+}
+
+.shirtcutLink {
+    margin: 6px 0px;
+}
+
+.socialMedia {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.socialMedia p {
+    font-size: 1.3rem;
+}
+
+.socialMedia i {
+    display: flex;
+    font-size: 2.5rem;
+}
+
+
+/* cooperation page */
+
+.formTopic {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.cooperationFormContainer {
+    display: flex;
+    height: auto;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 30px;
+    max-height: 750px;
+}
+
+.cooperationFormContainer .form {
+    color: white;
+    padding: 80px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 60%;
+}
+
+.form input:not(#radio) {
+    height: 45px;
+    width: 200px;
+    background-color: white;
+    margin-bottom: 1rem;
+}
+
+.form .topic {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.form .column1,
+.column2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form .column2 .requests {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.form .column2 .requests label {
+    margin-left: 1rem;
+}
+
+.form .column3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form .column3 .requestText {
+    display: flex;
+    background-color: white;
+}
+
+.cooperationFormContainer .buttonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-top: 1rem;
+
+}
+
+.cooperationFormContainer .buttonContainer button {
+    background-color: white;
+    color: black;
+    height: 30px;
+    padding: 2px 20px;
+    font-weight: 700;
+}
+
+.cooperationFormContainer .image {
+    max-width: 500px;
+    height: 100%;
+}
+
+/* grouping page */
+
+.groupingSectionHeader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+
+.groupingSectionHeader h2 {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin: 1rem 0px;
+}
+
+.groupingSectionHeader p {
+    color: rgb(124, 123, 123);
+}
+
+.groupingSectionFooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.groupingSectionFooter .sideBar {
+    flex: .2;
+    display: flex;
+    flex-direction: column;
+}
+
+.groupingSectionFooter .sideBar .filter {
+    width: 100%;
+    background-color: rgb(176, 176, 176);
+    padding: 15px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.groupingSectionFooter .sideBar p {
+    color: #9f9f9f;
+    font-weight: 600;
+}
+
+.groupingSectionFooter .sideBar img {
+    margin: 3rem 0px;
+}
+
+.groupingSectionFooter .list {
+    flex: .8;
+    display: flex;
+    flex-direction: column;
+}
+
+.groupingSectionFooter .list .sorting {
+    display: flex;
+    justify-content: space-around;
+}
+
+.groupingSectionFooter .list .sorting .divider {
+    margin: 0px 10px;
+}
+
+.groupingSectionFooter .list .sorting div {
+    display: flex;
+}
+
+.groupingSectionFooter .list .sorting .sortingType {
+    color: #888888;
+}
+
+.groupingSectionFooter .list .sorting i {
+    margin-left: 5px;
+}
+
+
+.groupingSectionFooter .list .rowContainer {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.groupingSectionFooter .list .pageChanger {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.pageChanger {
+    font-weight: 700;
+}
+
+.pageChanger .numbers {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.pageChanger .numbers p {
+    margin: 0px 5px;
+}
+
+/* dashboard page */
+
+.dashboardContainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5rem;
+    height: auto;
+}
+
+.dashboardMenu {
+    flex: .2;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid black;
+    justify-content: space-around;
+}
+
+.dashboardMenu .welcomePart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    padding: 50px 60px;
+    font-size: 1.1rem;
+}
+
+/* a divider between welcome and choosing part with a logo in between */
+.dashboardMenu .divider {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.dashboardMenu .divider span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    width: 25%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px 0px;
+}
+
+.dashboardMenu .choosingPart {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+
+}
+
+.dashboardMenu .choosingPart a {
+    width: 100%;
+    text-align: start;
+    font-weight: 600;
+}
+
+.dashboardContent {
+    display: flex;
+    flex: .7;
+    padding: 30px 40px;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.dashboardContent .contentTopic {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.dashboardContent .infoContainer {
+    display: flex;
+    justify-content: space-between;
+    text-align: start;
+}
+
+.dashboardContent .infoContainer .infoCol .label {
+    color: gray;
+    font-weight: 500;
+}
+
+.dashboardContent .infoContainer .infoCol .content {
+    font-weight: 600;
+    margin: 1rem 0px 3.5rem 0px;
+}
+
+
+.dashboardContent .editBtn {
+    padding: 1px 7px;
+    border-radius: 15px;
+    width: max-content;
+    font-weight: 500;
+}
+
+/* single page essays page */
+
+.essaySection {
+    display: flex;
+    padding: 60px;
+    flex-direction: column;
+}
+
+.essayHeader {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.essayHeader h2 {
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+
+.essayHeader p {
+    font-weight: 500;
+    color: gray;
+    margin: 1rem 0px 2rem 0px;
+}
+
+.singlePageEssayFooter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.singlePageEssayFooter .sideBar {
+    flex: .15;
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePageEssayFooter .sideBar .filter {
+    width: 100%;
+    background-color: #9f9f9f;
+    border-radius: 15px;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.singlePageEssayFooter .sideBar input {
+    margin: 1rem 0px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 10px;
+}
+
+.singlePageEssayFooter .sideBar .groups {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0px;
+}
+
+.singlePageEssayFooter .sideBar .groups a {
+    text-align: start;
+    color: #9f9f9f;
+}
+
+.singlePageEssayFooter .content {
+    display: flex;
+    flex: .75;
+    justify-content: space-between;
+}
+
+.singlePageEssayFooter .content .textSide {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.singlePageEssayFooter .content .date {
+    color: #888888;
+    font-size: .8rem;
+}
+
+.singlePageEssayFooter .content .textSide .textHeader {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.singlePageEssayFooter .content .textSide .text {
+    font-weight: 600;
+    text-align: justify;
+    margin: 1rem 0px 16rem 0px;
+    line-height: 1.6rem;
+    font-size: 1rem;
+}
+
+.singlePageEssayFooter .content .imgSide {
+    width: 30%;
+}
+
+.singlePageEssayFooter .content .imgSide img {
+    margin-bottom: 2rem;
+}
+
+/* essays page (used some of singlepage essays styles) */
+
+.essayList {
+    flex: .75;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.essayList .essayRow {
+    display: flex;
+    justify-content: space-around;
+}
+
+.essayList .essayRow .essay .essayTopic {
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+
+.essayList .essayRow .essay .date {
+    font-size: .7rem;
+    color: gray;
+}
+
+.essayList .essayRow .essay .text {
+    line-height: 1.5rem;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.essayList .pageChanger {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+/* auth page */
+
+.signInContainer {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 10px 30px #888888;
+}
+
+.signInContainer .signInText {
+    padding: 50px 50px 50px 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.signInContainer .signInText h2 {
+    font-weight: 800;
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+}
+
+.signInContainer .signInText .slotContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0px;
+}
+
+.signInContainer .signInText .slotContainer .tel {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.signInContainer .signInText .slotContainer input {
+    width: 100%;
+    text-align: right;
+    margin: 30px 0px;
+    border-bottom: 2px solid black;
+    padding: 10px 0px;
+}
+
+.signInContainer .signInText .slotContainer .buttonContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signInContainer .signInText .slotContainer .buttonContainer .sendVarificationBtn {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    width: max-content;
+    font-size: 1.1rem;
+}
+
+.signInContainer .signInText .slotContainer .resendVarificationBtn {
+    color: #9f9f9f;
+    font-size: .8rem;
+}
+
+.signInContainer .signInText .rules {
+    font-weight: 600;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+
+/* single product page */
+
+.singleProductPageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.singlePageNav {
+    display: flex;
+    justify-content: space-between;
+    color: #888888;
+    margin-bottom: 3rem;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev {
+    right: 0;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 110px;
+    width: 110px;
+    margin: 0 2px;
+    background-color: #bbb;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+        font-size: 11px
+    }
+}
+
+.col22 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.col22 .roww1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col22 .roww1 .t1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.col22 .roww1 .t2 {
+    font-size: 1rem;
+    color: #888888;
+}
+
+.col22 .kind {
+    color: #888888;
+    margin: 3rem 0px;
+}
+
+.roww2 {
+    display: flex;
+    margin: 2rem 0px;
+}
+
+.roww2 .t3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.roww2 .t4 {
+    margin: 0px 2.5rem 0px 8px;
+}
+
+.roww3 {
+    max-width: 50%;
+    width: 50%;
+}
+
+.roww3 .buttonSize {
+    padding: 6px 12px;
+    box-shadow: 0px 0px 7px #888888;
+    margin: 10px 10px;
+    font-weight: 700;
+}
+
+.roww4 {
+    display: flex;
+    font-size: 1.1rem;
+    font-weight: 800;
+}
+
+.roww4 .t5 {
+    margin: 1rem 0rem 5rem 2rem;
+}
+
+.roww5 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.roww5 .t6 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.roww5 .b {
+    color: white;
+    padding: 10px 20px;
+    background-color: black;
+    font-size: 1.3rem;
+}
+
+.roww6 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.roww6 .t7 {
+    color: #888888;
+}
+
+.roww6 .t8 {
+    margin: 1.5rem 0px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.im1 {
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.row2 p{
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.descriptionContainer {
+    border: 1px solid black;
+    padding: 30px;
+    width: 530px;
+    height: auto;
+    max-height: 260px;
+}
+
+.opinionContainer {
+    padding: 30px;
+    border: 1px solid black;
+    width: 700px;
+    height: auto;
+    max-height: 260px;
+}
+
+.topicc {
+    color: #888888;
+}
+
+.textt {
+    padding: 5px;
+    border-bottom: 1px solid #9f9f9f;
+    width: 50%;
+}
+
+.sendOpRight {
+    margin-top: 30px;
+    font-weight: 700;
+}
+
+.sendOpinionContainer {
+    background-color: #bbb;
+    height: 6rem;
+    width: 100%;
+}
+
+.inputsContainer {
+    margin-top: 30px;
+    display: flex;
+    font-weight: 700;
+    justify-content: space-between;
+}
+
+.insideInp {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.opinionInp {
+    margin: 1rem 0px;
+    background-color: #bbb;
+    padding: 5px 0px;
+}
+
+.sendOpBtn {
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 0px;
+}
